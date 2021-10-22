@@ -18,31 +18,31 @@
         <div class="col col-sm-2">
           <h2>Addrs 1</h2>
           <div id="cukong1">
-             <?php include('backend_cukong_tracker.php'); ?>
+             <?php include('backend/backend_1.php'); ?>
           </div>
         </div>
         <div class="col col-sm-2">
           <h2>Addrs 2</h2>
           <div id="cukong2">
-             <?php include('backend_cukong_tracker2.php'); ?>
+             <?php include('backend/backend_2.php'); ?>
           </div>
         </div>
         <div class="col col-sm-2">
           <h2>Addrs 3</h2>
           <div id="cukong3">
-             <?php include('backend_cukong_tracker3.php'); ?>
+             <?php include('backend/backend_3.php'); ?>
           </div>
         </div>
         <div class="col col-sm-2">
           <h2>Addrs 4</h2>
           <div id="cukong4">
-             <?php include('backend_cukong_tracker4.php'); ?>
+             <?php include('backend/backend_4.php'); ?>
           </div>
         </div>
         <div class="col col-sm-2">
           <h2>Addrs 5</h2>
           <div id="cukong5">
-             <?php include('backend_cukong_tracker5.php'); ?>
+             <?php include('backend/backend_5.php'); ?>
           </div>
         </div>
       </div>
