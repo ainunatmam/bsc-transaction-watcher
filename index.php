@@ -57,12 +57,11 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script>
     setInterval(function(){
-        $('#cukong1').load('backend_cukong_tracker.php');
-        $('#cukong2').load('backend_cukong_tracker2.php');
-        $('#cukong3').load('backend_cukong_tracker3.php');
-        $('#cukong4').load('backend_cukong_tracker4.php');
-        $('#cukong5').load('backend_cukong_tracker5.php');
-        // $('#cukong6').load('backend_cukong_tracker6.php');
+        $('#cukong1').load('backend/backend_1.php');
+        $('#cukong2').load('backend/backend_2.php');
+        $('#cukong3').load('backend/backend_3.php');
+        $('#cukong4').load('backend/backend_4.php');
+        $('#cukong5').load('backend/backend_5.php');
    },2000);
 
 </script>
