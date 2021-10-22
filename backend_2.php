@@ -1,9 +1,9 @@
 <?php
-$cukong_address = '0x22a2543532c7eb1dc8b68b3ef0e3f77d03db9434';
-$sumber = "https://api.bscscan.com/api?module=account&action=txlist&address={$cukong_address}&startblock=1&endblock=99999999&page=1&offset=6&sort=desc&tag=latest&apikey=HKSINPJWQX9BAYQCTJSII62JK5KXVTKG83";
- $data_api = file_get_contents($sumber);
+$bsc_address = ''; //insert bsc address 
+$api_key = '' //insert your api key
+$source = "https://api.bscscan.com/api?module=account&action=txlist&address={$cukong_address}&startblock=1&endblock=99999999&page=1&offset=6&sort=desc&tag=latest&apikey={$api_key}";
+ $data_api = file_get_contents($source);
  $data = json_decode($data_api, true);
- // $hasil = $data->result;
 
 
    $link_hash = 'https://bscscan.com/tx/';

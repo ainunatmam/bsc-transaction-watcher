@@ -8,39 +8,39 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <title>Cukong Tracker</title>
+    <title>BSC Transaction Watcher</title>
   </head>
   <body>
     <div class="container">
-      <h1 style="text-align: center;">Cukong Tracker</h1>
+      <h1 style="text-align: center;">Transaction Watcher</h1>
       <h3 id="gmt"></h3>
       <div class="row">
         <div class="col col-sm-2">
-          <h2>Cukong 1</h2>
+          <h2>Addrs 1</h2>
           <div id="cukong1">
              <?php include('backend_cukong_tracker.php'); ?>
           </div>
         </div>
         <div class="col col-sm-2">
-          <h2>Cukong 2</h2>
+          <h2>Addrs 2</h2>
           <div id="cukong2">
              <?php include('backend_cukong_tracker2.php'); ?>
           </div>
         </div>
         <div class="col col-sm-2">
-          <h2>Cukong 3</h2>
+          <h2>Addrs 3</h2>
           <div id="cukong3">
              <?php include('backend_cukong_tracker3.php'); ?>
           </div>
         </div>
         <div class="col col-sm-2">
-          <h2>Cukong 4</h2>
+          <h2>Addrs 4</h2>
           <div id="cukong4">
              <?php include('backend_cukong_tracker4.php'); ?>
           </div>
         </div>
         <div class="col col-sm-2">
-          <h2>Cukong 5</h2>
+          <h2>Addrs 5</h2>
           <div id="cukong5">
              <?php include('backend_cukong_tracker5.php'); ?>
           </div>
